@@ -1,7 +1,5 @@
-// Importar la función desde commons.js
 import { processEmail } from "./commons.js";
 
-// Función principal
 function main() {
   const emailInput = prompt("Por favor, ingresa tu correo electrónico:");
   
@@ -13,5 +11,4 @@ function main() {
   }
 }
 
-// Ejecutar el programa principal
 main();
