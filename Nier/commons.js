@@ -20,9 +20,8 @@ function validateFormat(email) {
 }
 
 function sanitizeEmail(email) {
-  return email.replace(/[&<>"']/g, (char) => {
+  return  email.replace(/[<>"']/g, (char) => {
     const entities = {
-      "&": "&amp;",
       "<": "&lt;",
       ">": "&gt;",
       '"': "&quot;",
